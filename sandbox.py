@@ -1,9 +1,6 @@
 import llm_functions as ACP
 import prompts
-
-#Enter user inputs here
-level = " "
-subject = ""
+import tools
 
 user_prompt = ACP.assemble_prompt(
     prompts.rubric_gen_prompt_v1,
